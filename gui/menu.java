@@ -59,12 +59,12 @@ public class menu extends JFrame implements ActionListener{
 
         // setting icon image
 
-        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\doggo.jpg");
+        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\gui\\doggo.jpg");
         this.setIconImage(image.getImage());
 
         //setting Frame
 
-        this.setTitle("gui.menu");
+        this.setTitle("menu");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setSize(1000,600);

@@ -13,7 +13,7 @@ public class list extends JFrame implements ActionListener {
     JComboBox sp, cl;
 
     public list() {
-        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\doggo.jpg");
+        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\gui\\doggo.jpg");
         this.setIconImage(image.getImage());
 
         // Right container of data grabbed from the database
@@ -78,7 +78,7 @@ public class list extends JFrame implements ActionListener {
         panel5.setBounds(250, 100, 700, 400);
 
         // Setting buttons
-        menu = new JButton("gui.menu");
+        menu = new JButton("menu");
         menu.setBounds(50, 5, 100, 40);
         menu.addActionListener(this);
         panel5.add(menu);

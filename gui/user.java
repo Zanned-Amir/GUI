@@ -72,7 +72,7 @@ public class user extends JFrame implements ActionListener {
         panel3.add(cl);
 
         // setting button
-        menu = new JButton("gui.menu");
+        menu = new JButton("menu");
         menu.setBounds(50, 5, 100, 40);
 
         inscrit = new JButton("Inscrit");
@@ -105,7 +105,7 @@ public class user extends JFrame implements ActionListener {
         panelf.add(panel3);
         panelf.add(panel4);
         panelf.add(panel5);
-        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\doggo.jpg");
+        ImageIcon image = new ImageIcon("C:\\Users\\amir\\IdeaProjects\\ds\\src\\gui\\doggo.jpg");
         this.setIconImage(image.getImage());
 
         //setting Frame
@@ -123,7 +123,7 @@ public class user extends JFrame implements ActionListener {
         if (e.getSource() == menu) {
             this.dispose();
             new menu();
-            System.out.println("gui.menu button clicked");
+            System.out.println("menu button clicked");
 
         }
         else if (e.getSource() == inscrit) {
